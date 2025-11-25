@@ -20,10 +20,11 @@ In this model, it is used as a multiplier to determine the Final Risk Score.
 This factor prevents you from treating two risks with the same Base Risk Score (e.g., a Medium/Medium score of 4 and a Low/High score of 3) identically, 
 if one of them involves a Critical asset.
 
-Exposure Factor	Multiplier Value	Description				
-Trivial	×1.0	The asset is easily replaced or has minimal monetary/operational value.				
-Moderate	×1.5	The asset is valuable but loss/damage is not business-ending.				
-Critical	×2.0	The asset is irreplaceable (e.g., brand reputation) or its loss/damage is existential to the business.				
+| Exposure Factor | Multiplier Value | Description |
+| :--- | :---: | ---: | ---: |
+| Trivial	| ×1.0	| The asset is easily replaced or has minimal monetary/operational value. |			
+| Moderate	| ×1.5	| The asset is valuable but loss/damage is not business-ending. |
+| Critical	| ×2.0	| The asset is irreplaceable (e.g., brand reputation) or its loss/damage is existential to the business. |			
 						
 						
 Final Risk Score = Base Risk Score x EF Multiplier						

@@ -38,3 +38,10 @@ Final Risk Score = Base Risk Score x EF Multiplier
 | ---: | ---: | ---: | ---: | ---: | ---: |
 | A (High P, Low I, Trivial EF) | 3×1 | 3 | Trivial | 1 | 3	| Medium |
 | B (Low P, High I, Critical EF) | 1×3 | 3 | Critical | 2 | 6 | High |
+
+
+| Category | Score Range | Description |
+| ---: | ---: | ---: |
+| Low Risk | From 1 to 5 | Acceptable risk; addressed through standard procedures.	|
+| Medium Risk | From 6 to 11	| Requires specific mitigation plan; leadership review needed.	|
+| High Risk	| From 12 to 18	| Requires immediate action and executive approval for acceptance.	|

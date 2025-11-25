@@ -30,6 +30,7 @@ if one of them involves a Critical asset.
 Final Risk Score = Base Risk Score x EF Multiplier						
 						
 						
-Risk Scenario	P × I	Base Risk Score	EF	EF Multiplier	Final Risk Score	Final Risk Level
-A (High P, Low I, Trivial EF)	  3×1	  3	Trivial	  1	  3	Medium
-B (Low P, High I, Critical EF)	1×3	  3	Critical	2	  6	High
+| Risk Scenario	| P × I	| Base Risk Score	EF	| EF Multiplier | Final Risk Score | Final Risk Level |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| A (High P, Low I, Trivial EF) | 3×1 | 3 | Trivial | 1 | 3	| Medium |
+| B (Low P, High I, Critical EF) | 1×3 | 3 | Critical | 2 | 6 | High |

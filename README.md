@@ -2,8 +2,8 @@ This model combines the two standard components of risk, Impact and Probability,
 as a Risk Multiplier to determine the final, comprehensive risk level.The standard unit for the heatmap is the Base Risk Score, calculated as: 
 Base Risk Score = Probability Score x Impact Score
 
-| Category | Score | Range | Description |
-| ---: | ---: | ---: | ---: |
+| Category | Score Range | Description |
+| ---: | ---: | ---: |
 | Low Risk | From 1 to 2 | Acceptable risk; addressed through standard procedures.	|
 | Medium Risk | From 3 to 5	| Requires specific mitigation plan; leadership review needed.	|
 | High Risk	| From 6 to 9	| Requires immediate action and executive approval for acceptance.	|

@@ -16,10 +16,10 @@ Base Risk Score = Probability Score x Impact Score
 | Medium (2) | 2 (Low) | 4 (Medium) | 6 (High) |
 | Low (1) | 1 (Low) | 2 (Low) | 3 (Medium) |
 
-The Exposure Factor (EF) serves as a crucial third dimension, refining the Base Risk Score. The EF is the measure of the percentage of an asset's value lost if a threat is realized. 
+The Exposure Factor (EF) serves as a crucial third dimension, refining the Base Risk Score. The EF is the measure of the percentage of a control's value lost if a threat is realized. 
 In this model, it is used as a multiplier to determine the Final Risk Score.
 This factor prevents you from treating two risks with the same Base Risk Score (e.g., a Medium/Medium score of 4 and a Low/High score of 3) identically, 
-if one of them involves a Critical asset.
+if one of them involves a Critical control.
 
 | Exposure Factor | Multiplier Value | Description |
 | :--- | :---: | ---: |

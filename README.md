@@ -1,5 +1,6 @@
 This model combines the two standard components of risk, Impact and Probability, into a 2D Risk Heatmap, and then integrates the third component, Exposure Factor (EF), 
 as a Risk Multiplier to determine the final, comprehensive risk level.The standard unit for the heatmap is the Base Risk Score, calculated as: 
+
 Base Risk Score = Probability Score x Impact Score
 
 | Category | Score Range | Description |
@@ -22,9 +23,9 @@ if one of them involves a Critical asset.
 
 | Exposure Factor | Multiplier Value | Description |
 | :--- | :---: | ---: |
-| Trivial	| ×1.0	| The asset is easily replaced or has minimal monetary/operational value. |			
-| Moderate	| ×1.5	| The asset is valuable but loss/damage is not business-ending. |
-| Critical	| ×2.0	| The asset is irreplaceable (e.g., brand reputation) or its loss/damage is existential to the business. |			
+| Trivial	| ×1.0	| The control is easily replaced or has minimal monetary/operational value. |			
+| Moderate	| ×1.5	| The control is valuable but loss/damage is not business-ending. |
+| Critical	| ×2.0	| The control is irreplaceable (e.g., brand reputation) or its loss/damage is existential to the business. |			
 						
 						
 Final Risk Score = Base Risk Score x EF Multiplier						

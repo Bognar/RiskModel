@@ -43,6 +43,6 @@ Final Risk Score = Base Risk Score x EF Multiplier
 | Category | Score Range | Description |
 | ---: | ---: | ---: |
 | Low Risk | From 1 to 4 | Acceptable risk; addressed through standard procedures.	|
-| Medium Risk | From 5 to 9	| Requires specific mitigation plan; leadership review needed.	|
-| High Risk	| From 10 to 14	| Requires immediate action and executive approval for acceptance.	|
+| Medium Risk | From 5 to 9	| Requires specific mitigation plan |
+| High Risk	| From 10 to 14	| Requires immediate action, leadership review needed.	|
 | Critical Risk	| From 15 to 18	| Requires immediate action and executive approval for acceptance.	|

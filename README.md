@@ -8,10 +8,11 @@ Medium Risk	From 3 to 5	Requires specific mitigation plan; leadership review nee
 High Risk	From 6 to 9	Requires immediate action and executive approval for acceptance.	
 			
 
-Probability ↓ / Impact →	Low (1)	Medium (2)	High (3)
-High (3)	  3 (Medium)	6 (High)	  9 (High)
-Medium (2)	2 (Low)	    4 (Medium)	6 (High)
-Low (1)	    1 (Low)	    2 (Low)	    3 (Medium)
+| Probability ↓ / Impact → | Low (1) | Medium (2) | High (3) |
+| :--- | :---: | ---: | ---: |
+| High (3) | 3 (Medium) | 6 (High) | 9 (High) |
+| Medium (2) | 2 (Low) | 4 (Medium) | 6 (High) |
+| Low (1) | 1 (Low) | 2 (Low) | 3 (Medium) |
 
 The Exposure Factor (EF) serves as a crucial third dimension, refining the Base Risk Score. The EF is the measure of the percentage of an asset's value lost if a threat is realized. 
 In this model, it is used as a multiplier to determine the Final Risk Score.

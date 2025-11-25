@@ -1,3 +1,5 @@
+Colateral Risk Model
+
 This model combines the two standard components of risk, Impact and Probability, into a 2D Risk Heatmap, and then integrates the third component, Exposure Factor (EF), 
 as a Risk Multiplier to determine the final, comprehensive risk level.The standard unit for the heatmap is the Base Risk Score, calculated as: 
 

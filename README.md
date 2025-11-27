@@ -50,11 +50,17 @@ Final Risk Score = Base Risk Score x EF Multiplier
 | Critical Risk	| From 15 to 18	| Requires immediate action and executive approval for acceptance.	|
 
 Example:
+
 Normal user P=2, I=3 EF=1
+
 CFO user P=2, I=3 EF=2
+
 With normal base risk model "Normal user" would have Risk High (6)
+
 With normal base risk model "CFO user" would have Risk High (6)
 
 If we introduce EF Multiplier
+
 "Normal User" would have Final Risk score Medium (6)
+
 "CFO user" would have Final Risk score High (12)

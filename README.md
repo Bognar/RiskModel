@@ -22,7 +22,9 @@ The Exposure Factor (EF) serves as a crucial third dimension, refining the Base 
 In this model, it is used as a multiplier to determine the Final Risk Score.
 This factor prevents you from treating two risks with the same Base Risk Score (e.g., a Medium/Medium score of 4 and a Low/High score of 3) identically, 
 if one of them involves a Critical control.
+
 Practical example: Two users that do not have MFA enambed, one is employee and another one is CFO. We can't allow them to have same risk level considering the colateral impact.
+
 
 | Exposure Factor | Multiplier Value | Description |
 | :--- | :---: | ---: |
@@ -46,3 +48,13 @@ Final Risk Score = Base Risk Score x EF Multiplier
 | Medium Risk | From 5 to 9	| Requires specific mitigation plan |
 | High Risk	| From 10 to 14	| Requires immediate action, leadership review needed.	|
 | Critical Risk	| From 15 to 18	| Requires immediate action and executive approval for acceptance.	|
+
+Example:
+Normal user P=2, I=3 EF=1
+CFO user P=2, I=3 EF=2
+With normal base risk model "Normal user" would have Risk High (6)
+With normal base risk model "CFO user" would have Risk High (6)
+
+If we introduce EF Multiplier
+"Normal User" would have Final Risk score Medium (6)
+"CFO user" would have Final Risk score High (12)

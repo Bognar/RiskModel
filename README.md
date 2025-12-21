@@ -23,7 +23,7 @@ In this model, it is used as a multiplier to determine the Final Risk Score.
 This factor prevents you from treating two risks with the same Base Risk Score (e.g., a Medium/Medium score of 4 and a Low/High score of 3) identically, 
 if one of them involves a Critical control.
 
-Practical example: Two users that do not have MFA enambed, one is employee and another one is CFO. We can't allow them to have same risk level considering the colateral impact.
+Practical example: Two users that do not have MFA enambed, one is standard user and another one is admin user. We can't allow them to have same risk level considering the colateral impact.
 
 
 | Exposure Factor | Multiplier Value | Description |

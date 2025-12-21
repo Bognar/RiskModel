@@ -51,16 +51,16 @@ Final Risk Score = Base Risk Score x EF Multiplier
 
 Example:
 
-Normal user P=2, I=3 EF=1
+Standard user P=2, I=3 EF=1
 
-CFO user P=2, I=3 EF=2
+Admin user P=2, I=3 EF=2
 
-With normal base risk model "Normal user" would have Risk High (6)
+With normal base risk model "Standard user" would have Risk High (6)
 
-With normal base risk model "CFO user" would have Risk High (6)
+With normal base risk model "Admin user" would have Risk High (6)
 
 If we introduce EF Multiplier
 
-"Normal User" would have Final Risk score Medium (6)
+"Standard User" would have Final Risk score Medium (6)
 
-"CFO user" would have Final Risk score High (12)
+"Admin user" would have Final Risk score High (12)
